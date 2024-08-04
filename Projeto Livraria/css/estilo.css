@@ -124,10 +124,6 @@ a:hover {
 a:visited{
     color: white;
 }
-
-
-/*************NAV*****************************/
-
 .sobre{
     background: linear-gradient(90deg, rgb(16, 0, 43) 0%, rgb(59, 10, 138) 35%, rgb(23, 0, 59) 100%);
     color: white;
@@ -156,4 +152,72 @@ a:visited{
 #dcv {
     text-align: center;
     font-size: x-large;
+}
+
+/**** Produto Max Verstappen *****/
+#mv1{
+    background: rgb(5, 0, 90);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(7, 0, 104) 35%, rgb(0, 0, 0) 100%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    border: 10px;
+    border-width: 10px;
+    border-style: double;
+}
+#mv1title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#imgmv1 {
+    margin-left: 40px;
+    float: left;
+    display: flex;
+}
+.product-container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .product-container img {
+    max-width: 100%; 
+    margin-right: 20px; 
+  }
+  
+  .purchase-options {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    position: relative;
+    justify-self: right; 
+  }
+  #mv1text{
+    text-align: left;
+    font-size: large;
+  }
+  #internationalbuy{
+    background-color: orange;
+    text-align: center;
+    font-size: larger;
+    color: black;
+  }
+  #pricemv1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+/**** Produto RB 19 ******/
+
+#rb19title {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+}
+#pricerb19{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
 }
